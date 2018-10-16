@@ -1,6 +1,21 @@
 # UtilsLibrary
 Android开发过程中常用的工具类
 
+### How to use it?
+Step 1. Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+    		repositories {
+    			...
+    			maven { url 'https://jitpack.io' }
+    		}
+     }
+     
+Step 2. Add the dependency 
+   	 
+   	  dependencies {
+      	        implementation 'com.github.langsun:UtilsLibrary:v1.2'
+      	}
 #### SPUtil
     setString(Context context, String key, boolean value)          :String类型的写入
     getString(Context context, String key, boolean defaultValue)   :String类型的读取
