@@ -25,7 +25,9 @@ Android开发过程中常用的工具类
 
      showToast(Context context, String str)                      :String类型的提示文案
      showToast(Context context, int res)                         :string.xml中的文案（R.string.xxx）
+     
 #### AppUtil
+
     getAppName                                                   :获取应用程序名称
     getVersionName                                               :当前应用的版本名称
     getVersionCode                                               :获取应用程版本号
@@ -33,6 +35,7 @@ Android开发过程中常用的工具类
     getAppLogo                                                   :获取应用程序图标
     
 #### DateUtil
+
     getDateAndWeek(String style)                                 :获取当天的日期和星期（2018年1月1日 星期一）
     getDateAndTime(String style)                                 :获取当天的日期和时间（格式与传入的格式一致，如yyyy-MM-dd HH:mm:ss）
     getDateAndTime(String style, long time)                      :获取某一天的日期和时间（格式与传入的格式一致，如yyyy-MM-dd HH:mm:ss）
@@ -46,7 +49,9 @@ Android开发过程中常用的工具类
     longToDate(long currentTime, String formatType)              :long转换为Date类型 
     stringToLong(String strTime, String formatType)              :string类型转换为long类型
     dateToLong(Date date)                                        :date类型转换为long类型
+    
 ####MoneyUtil
+
     formatMoney(String value)                                    :格式化金额
     moneyAdd(String valueStr, String addStr)                     :金额相加
     moneyAdd(BigDecimal value, BigDecimal augend)                :金额相加
@@ -62,9 +67,11 @@ Android开发过程中常用的工具类
     getProgress(double bigDecimal)                               :获取百分比，保留两位小数
 
 ####SoftInputUtil
+
     showSoftInput(Context context)                               :显示软键盘
     showSoftInput(Context context, View view)                    :显示软键盘
     hideSoftInput(Context context, View view)                    :隐藏软键盘
+    
 ####SpannableUtil
 
     参数说明：
@@ -93,7 +100,9 @@ Android开发过程中常用的工具类
     setURLSpan                                                  :设置某些文字的链接
     setSuperscriptSpan                                          :设置某些文字的上标
     setSubscriptSpan                                            :设置某些文字的下标 
+    
 ####VerificationUtil
+
     checkMobilePhoneNumber(String phoneNumber)                 :验证手机号  
     checkEmail(String email)                                   :验证Email
     checkIdCard(String idCard)                                 :模糊验证身份证号码（包含18位和15位）
