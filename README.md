@@ -50,7 +50,7 @@ Android开发过程中常用的工具类
     stringToLong(String strTime, String formatType)              :string类型转换为long类型
     dateToLong(Date date)                                        :date类型转换为long类型
     
-####MoneyUtil
+#### MoneyUtil
 
     formatMoney(String value)                                    :格式化金额
     moneyAdd(String valueStr, String addStr)                     :金额相加
@@ -66,13 +66,13 @@ Android开发过程中常用的工具类
     setScaleMyself(BigDecimal bigDecimal)                        :格式化金额，保留两位小数
     getProgress(double bigDecimal)                               :获取百分比，保留两位小数
 
-####SoftInputUtil
+#### SoftInputUtil
 
     showSoftInput(Context context)                               :显示软键盘
     showSoftInput(Context context, View view)                    :显示软键盘
     hideSoftInput(Context context, View view)                    :隐藏软键盘
     
-####SpannableUtil
+#### SpannableUtil
 
     参数说明：
     context：       上下文
@@ -101,7 +101,7 @@ Android开发过程中常用的工具类
     setSuperscriptSpan                                          :设置某些文字的上标
     setSubscriptSpan                                            :设置某些文字的下标 
     
-####VerificationUtil
+#### VerificationUtil
 
     checkMobilePhoneNumber(String phoneNumber)                 :验证手机号  
     checkEmail(String email)                                   :验证Email
